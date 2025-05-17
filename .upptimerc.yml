@@ -3,28 +3,31 @@ owner: GeekCircuitOfficial # Your GitHub organization or username, where this re
 repo: StatusPage # The name of this repository
 
 sites:
-  - name: Main Website
-    url: https://www.geekcircuit.com/
+  - name: Geek Circuit
+    url: geekcircuit.com
     port: 443
     check: "tcp-ping"
     ipv6: true
-
+  - name: Tooloza
+    url: tooloza.com
+    check: "tcp-ping"
+    ipv6: true
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.geekcircuit.com
   # baseUrl: /StatusPage
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://www.geekcircuit.com/wp-content/uploads/2025/04/logo_light.webp
+  name: Geek Circuit
+  customHeadHtml: "<style>.logo div {display: none;}</style>"
+  theme: light
+  introTitle: "**GeekCircuit** monitors the health of our websites, powered by GitHub and Upptime."
+  introMessage: Welcome to the live status page of **GeekCircuit**.
   navbar:
-    - title: Website
+    - title: Blog
       href: https://www.geekcircuit.com/
-    - title: Tools
-      href: https://www.geekcircuit.com/tools
-    - title: GitHub
-      href: https://github.com/$OWNER/
+    - title: Web Tools
+      href: https://tooloza.com/
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
