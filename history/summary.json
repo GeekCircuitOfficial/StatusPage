@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.geekcircuit.com.ico",
     "slug": "geek-circuit",
     "status": "up",
-    "uptime": "0.81%",
-    "uptimeDay": "0.81%",
-    "uptimeWeek": "0.81%",
-    "uptimeMonth": "0.81%",
-    "uptimeYear": "0.81%",
-    "time": 875,
-    "timeDay": 875,
-    "timeWeek": 875,
-    "timeMonth": 875,
-    "timeYear": 875,
-    "dailyMinutesDown": {
-      "2025-05-17": 16
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 873,
+    "timeDay": 873,
+    "timeWeek": 873,
+    "timeMonth": 873,
+    "timeYear": 873,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Tooloza",
@@ -25,18 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/tooloza.com.ico",
     "slug": "tooloza",
     "status": "up",
-    "uptime": "0.65%",
-    "uptimeDay": "0.65%",
-    "uptimeWeek": "0.65%",
-    "uptimeMonth": "0.65%",
-    "uptimeYear": "0.65%",
-    "time": 760,
-    "timeDay": 760,
-    "timeWeek": 760,
-    "timeMonth": 760,
-    "timeYear": 760,
-    "dailyMinutesDown": {
-      "2025-05-17": 16
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 730,
+    "timeDay": 730,
+    "timeWeek": 730,
+    "timeMonth": 730,
+    "timeYear": 730,
+    "dailyMinutesDown": {}
   }
 ]
