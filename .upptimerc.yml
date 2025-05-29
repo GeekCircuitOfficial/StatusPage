@@ -21,6 +21,7 @@ status-website:
   logoUrl: https://assets.geekcircuit.com/img/logo/dark.svg
   name: Geek Circuit
   customHeadHtml: |
+    <link rel="icon" type="image/png" href="https://assets.geekcircuit.com/img/favicon/favicon.png">
     <meta name="description" content="Stay updated with the real-time uptime status of GeekCircuit's online services and tools.">
     <meta name="keywords" content="GeekCircuit, Status, Monitoring, Uptime, India">
     <meta name="author" content="Jai Krishna Tavva">
@@ -28,13 +29,7 @@ status-website:
     <meta property="og:description" content="Stay updated with the real-time uptime status of GeekCircuit's online services and tools.">
     <meta property="og:image" content="https://assets.geekcircuit.com/img/logo/light.svg">
     <meta property="og:url" content="https://status.geekcircuit.com">
-  js: |
-    document.addEventListener('DOMContentLoaded',()=>{
-      const footer = document.querySelector('footer p');
-      if (footer) {
-        footer.innerHTML = `&copy; ${new Date().getFullYear()} GeekCircuit. Made with ❤️ in India by Jai Krishna`;
-      }
-    });
+    <style>.logo div {display: none;}</style>
   theme: dark
   introTitle: "**GeekCircuit** Live Status Dashboard"
   introMessage: "Check the live status of our websites and tools. We keep everything running smoothly so you can focus on what matters."
@@ -43,3 +38,5 @@ status-website:
       href: https://www.geekcircuit.com/
     - title: Web Tools
       href: https://tooloza.com/
+  i18n:
+  footer: &copy; 2024–2025 Geek Circuit. Powered by [@Upptime](https://upptime.js.org/).
