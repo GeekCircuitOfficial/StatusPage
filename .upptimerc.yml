@@ -8,30 +8,38 @@ sites:
   check: "https"
   port: 443
   ipv6: false
+  icon: https://assets.geekcircuit.com/img/favicon/favicon.png
 
 - name: Tooloza
   url: https://tooloza.com/
   check: "https"
   port: 443
   ipv6: false
-  
+
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.geekcircuit.com
-  # baseUrl: /StatusPage
-  logoUrl: https://www.geekcircuit.com/wp-content/uploads/2025/04/logo_light.webp
+  logoUrl: https://assets.geekcircuit.com/img/logo/dark.svg
   name: Geek Circuit
-  customHeadHtml: "<style>.logo div {display: none;} .logo img { margin-left: -15px;}</style>"
-  js: "document.addEventListener('DOMContentLoaded',()=>{const e=document.querySelector('footer p');e&&(e.innerHTML=`&copy; ${new Date().getFullYear()} GeekCircuit. All Rights Reserved.`)});"
-  theme: light
-  introTitle: "**GeekCircuit** monitors the health of our websites, powered by GitHub and Upptime."
-  introMessage: Welcome to the live status page of **GeekCircuit**.
+  customHeadHtml: |
+    <meta name="description" content="Stay updated with the real-time uptime status of GeekCircuit's online services and tools.">
+    <meta name="keywords" content="GeekCircuit, Status, Monitoring, Uptime, India">
+    <meta name="author" content="Jai Krishna Tavva">
+    <meta property="og:title" content="GeekCircuit Status Page">
+    <meta property="og:description" content="Stay updated with the real-time uptime status of GeekCircuit's online services and tools.">
+    <meta property="og:image" content="https://assets.geekcircuit.com/img/logo/light.svg">
+    <meta property="og:url" content="https://status.geekcircuit.com">
+  js: |
+    document.addEventListener('DOMContentLoaded',()=>{
+      const footer = document.querySelector('footer p');
+      if (footer) {
+        footer.innerHTML = `&copy; ${new Date().getFullYear()} GeekCircuit. Made with ❤️ in India by Jai Krishna`;
+      }
+    });
+  theme: dark
+  introTitle: "**GeekCircuit** Live Status Dashboard"
+  introMessage: "Check the live status of our websites and tools. We keep everything running smoothly so you can focus on what matters."
   navbar:
     - title: Blog
       href: https://www.geekcircuit.com/
     - title: Web Tools
       href: https://tooloza.com/
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
