@@ -18,10 +18,10 @@ sites:
 
 status-website:
   cname: status.geekcircuit.com
+  favicon: https://assets.geekcircuit.com/img/favicon/favicon.png
   logoUrl: https://assets.geekcircuit.com/img/logo/dark.svg
   name: Geek Circuit
   customHeadHtml: |
-    <link rel="icon" type="image/png" href="https://assets.geekcircuit.com/img/favicon/favicon.png">
     <meta name="description" content="Stay updated with the real-time uptime status of GeekCircuit's online services and tools.">
     <meta name="keywords" content="GeekCircuit, Status, Monitoring, Uptime, India">
     <meta name="author" content="Jai Krishna Tavva">
@@ -38,5 +38,5 @@ status-website:
       href: https://www.geekcircuit.com/
     - title: Web Tools
       href: https://tooloza.com/
-  i18n:
-    footer: "&copy; 2024–2025 Geek Circuit. Built with <a href='https://upptime.js.org/' target='_blank' rel='noopener'>@Upptime</a>."
+i18n:
+  footer: "&copy; 2024–2025 Geek Circuit. Built with <a href='https://upptime.js.org/' target='_blank' rel='noopener'>@Upptime</a>."
