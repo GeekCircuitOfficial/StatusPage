@@ -31,7 +31,7 @@ status-website:
     <meta property="og:url" content="https://status.geekcircuit.com">
     <style>.logo div {display: none;}</style>
   theme: dark
-  introTitle: "**GeekCircuit** Live Status Dashboard"
+  introTitle: "Live Status **Dashboard**"
   introMessage: "Check the live status of our websites and tools. We keep everything running smoothly so you can focus on what matters."
   navbar:
     - title: Blog
@@ -39,4 +39,4 @@ status-website:
     - title: Web Tools
       href: https://tooloza.com/
   i18n:
-  footer: &copy; 2024–2025 Geek Circuit. Powered by [@Upptime](https://upptime.js.org/).
+    footer: "&copy; 2024–2025 Geek Circuit. Built with <a href='https://upptime.js.org/' target='_blank' rel='noopener'>@Upptime</a>."
