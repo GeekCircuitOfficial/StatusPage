@@ -19,24 +19,23 @@ sites:
 status-website:
   cname: status.geekcircuit.com
   favicon: https://assets.geekcircuit.com/img/favicon/favicon.png
-  logoUrl: https://assets.geekcircuit.com/img/logo/dark.svg
+  logoUrl: https://assets.geekcircuit.com/img/logo/png/light.png
   name: Geek Circuit
   customHeadHtml: |
-    <meta name="description" content="Stay updated with the real-time uptime status of GeekCircuit's online services and tools.">
-    <meta name="keywords" content="GeekCircuit, Status, Monitoring, Uptime, India">
-    <meta name="author" content="Jai Krishna Tavva">
-    <meta property="og:title" content="GeekCircuit Status Page">
-    <meta property="og:description" content="Stay updated with the real-time uptime status of GeekCircuit's online services and tools.">
-    <meta property="og:image" content="https://assets.geekcircuit.com/img/logo/light.svg">
+    <meta name="description" content="Stay updated with the real-time status of our websites, tools, and services. We monitor everything so you don't have to.">
+    <meta name="keywords" content="Geek Circuit, Status, Monitoring, Uptime, India">
+    <meta property="og:title" content="Geek Circuit Status Page">
+    <meta property="og:description" content="Stay updated with the real-time status of our websites, tools, and services. We monitor everything so you don't have to.">
+    <meta property="og:image" content="https://assets.geekcircuit.com/img/logo/png/light.png">
     <meta property="og:url" content="https://status.geekcircuit.com">
     <style>.logo div {display: none;}</style>
   theme: dark
-  introTitle: "Live Status **Dashboard**"
-  introMessage: "Check the live status of our websites and tools. We keep everything running smoothly so you can focus on what matters."
+  introTitle: "Geek Circuit **Status Dashboard**"
+  introMessage: "Stay updated with the real-time status of our websites, tools, and services. We monitor everything so you don't have to."
   navbar:
     - title: Blog
-      href: https://www.geekcircuit.com/
-    - title: Web Tools
+      href: https://geekcircuit.com/
+    - title: Tooloza 🛠️
       href: https://tooloza.com/
 i18n:
-  footer: "&copy; 2024–2025 Geek Circuit. Built with <a href='https://upptime.js.org/' target='_blank' rel='noopener'>@Upptime</a>."
+  footer: "&copy; 2024–2025 Geek Circuit. <a href='https://madewithloveinindia.org' target='_blank'>Made with <span aria-label='Love' style='color: #f43f5e'>&hearts;</span> in India</a>."
