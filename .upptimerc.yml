@@ -29,7 +29,7 @@ status-website:
     <meta property="og:image" content="https://assets.geekcircuit.com/img/logo/png/light.png">
     <meta property="og:url" content="https://status.geekcircuit.com">
     <style>.logo div {display: none;}</style>
-  theme: dark
+  theme: light
   introTitle: "Geek Circuit **Status Dashboard**"
   introMessage: "Stay updated with the real-time status of our websites, tools, and services. We monitor everything so you don't have to."
   navbar:
